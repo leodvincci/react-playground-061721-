@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300&display=swap');
+
+.main-page{
+    background-color: #1d2024;
+    height: 950px;
+}
+
+.the-background{
+    position: absolute;
+    top: 430px;
+    height: 455px;
+    background-color: #1a1a1b;
+    width: 325px;
+    margin: auto;
+}
+
+.info-text{
+    padding-top: 10px;
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    font-size: 12px;
+    text-align: start;
+}
+
+.profile-pic{
+    height: 450px;
+    width: 325px;
+}
