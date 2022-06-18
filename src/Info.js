@@ -1,16 +1,16 @@
 import About from "./About";
 
-function Info(){
+function Info({img}){
 
     return(
 
         <div style={{position:"relative",top:"30px"}}>
 
             <div style={{textAlign:"center"}}>
-                <img  style={{paddingTop:"20px",borderRadius:"28px"}} className={"profile-pic"} src="https://images.unsplash.com/photo-1598193550133-5b1d183165de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt=""/>
+                <img  style={{paddingTop:"20px",borderRadius:"28px"}} className={"profile-pic"} src={img} alt=""/>
             </div>
 
-            <div style={{paddingTop:"10px",borderRadius:"0px 20px 20px"}} className={"the-background"}>
+            <div style={{paddingTop:"10px",borderRadius:"0px 0px 20px 20px"}} className={"the-background"}>
                 <div className={"info-text"}>
                     <h1 style={{fontWeight:"bolder"}}>Jake Farmers</h1>
 
